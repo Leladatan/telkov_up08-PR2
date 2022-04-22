@@ -69,6 +69,7 @@
 }
 
 .search__main input {
+    outline: none;
     border: 0;
     border-radius: 5px;
     width: 100%;
