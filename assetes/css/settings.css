@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 * {
     box-sizing: border-box;
+    font-family: 'Roboto';
 }
 
 .container {
@@ -12,6 +15,7 @@
     margin-left: 10px;
     font-size: 24px;
     color: #0A143A;
+    font-weight: 700;
 }
 
 .header {
@@ -81,6 +85,10 @@
     margin-right: 20px;
     color: white;
     font-size: 16px;
+}
+
+.search__text:hover {
+    cursor: pointer;
 }
 
 /* btn */
