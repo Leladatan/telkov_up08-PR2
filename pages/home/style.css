@@ -52,6 +52,11 @@
 }
 
 .card-title:hover {
+    color: #0A143A;
+    text-decoration: underline;
+}
+
+.card-title:hover {
     cursor: pointer;
 }
 
