@@ -17,20 +17,25 @@
 .life {
     width: 15px;
     height: 15px;
+    background: url(../../assetes/img/home/life.png);
 }
 
 .life1 {
     margin-top: -15px;
     width: 15px;
     height: 15px;
+    background: url(../../assetes/img/home/life.png);
 }
 
 .life:hover {
     cursor: pointer;
+    background: url(../../assetes/img/home/life-blue.png);
+
 }
 
 .life1:hover {
     cursor: pointer;
+    background: url(../../assetes/img/home/life-blue.png);
 }
 
 .card {
