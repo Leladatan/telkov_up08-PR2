@@ -16,16 +16,20 @@
 
 .life {
     width: 15px;
-    height: 13.35px;
+    height: 15px;
 }
 
 .life1 {
     margin-top: -15px;
     width: 15px;
-    height: 13.35px;
+    height: 15px;
 }
 
 .life:hover {
+    cursor: pointer;
+}
+
+.life1:hover {
     cursor: pointer;
 }
 
@@ -93,4 +97,46 @@
 .aside-text {
     margin-top: -15px;
     font-size: 14px;
+}
+
+.footer {
+    border-top: 2px solid #C4C4C4;
+    padding-top: 20px;
+    margin-top: 45px;
+}
+
+.footer__content {
+    color: #C4C4C4;
+    font-size: 14px;
+}
+
+.footer__content p {
+    margin: 5px 0px;
+}
+
+.footer_item {
+    color: #C4C4C4;
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+.footer_item:hover {
+    color: #0A143A;
+}
+
+.footer__menu {
+    margin-top: 20px;
+    color: #0A143A;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__menu_item {
+    margin-bottom: 5px;
+}
+
+.footer__menu_item:hover {
+    color: #256EEB;
+    text-decoration: underline;
 }
